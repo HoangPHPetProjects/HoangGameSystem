@@ -3,7 +3,6 @@
 namespace NumberChoosing.DAL
 {
     using System.Data.Entity;
-    using System.Data.Entity.Infrastructure;
 
     public partial class HoangGameSystemEntities : DbContext
     {
