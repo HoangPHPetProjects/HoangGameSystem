@@ -45,11 +45,16 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="GameEngine\IGameEngine.cs" />
+    <Compile Include="GameEngine\BaseGameEngine.cs" />
+    <Compile Include="GameEngine\NumberChooseGameEngine.cs" />
+    <Compile Include="GameEngine\Player.cs" />
     <Compile Include="GameTableRepository.cs" />
     <Compile Include="GenericRepository.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="GameRepository.cs" />
     <Compile Include="UserRepository.cs" />
+    <Compile Include="Utility\ListHelper.cs" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\NumberChoosing.DAL\NumberChoosing.DAL.csproj">
